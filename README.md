@@ -54,13 +54,13 @@ forces the report to say what differs.
 `SKILL.md`):
 
 ```bash
-npx skills add https://github.com/<you>/field-mastery --skill field-mastery
+npx skills add https://github.com/Winhero-Yy/field-mastery --skill field-mastery
 ```
 
 **Manually** — copy this folder to your agent's global skills directory:
 
 ```bash
-git clone https://github.com/<you>/field-mastery.git
+git clone https://github.com/Winhero-Yy/field-mastery.git
 cp -r field-mastery ~/.agents/skills/field-mastery
 ```
 

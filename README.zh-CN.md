@@ -47,13 +47,13 @@
 **通过 skills CLI**（适用于 Claude Code、Cursor、Codex、Amp、Cline、DSH 等读取 `SKILL.md` 的 agent）：
 
 ```bash
-npx skills add https://github.com/<you>/field-mastery --skill field-mastery
+npx skills add https://github.com/Winhero-Yy/field-mastery --skill field-mastery
 ```
 
 **手动安装**——把整个文件夹拷到 agent 的全局技能目录：
 
 ```bash
-git clone https://github.com/<you>/field-mastery.git
+git clone https://github.com/Winhero-Yy/field-mastery.git
 cp -r field-mastery ~/.agents/skills/field-mastery
 ```
 
