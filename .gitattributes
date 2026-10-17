@@ -1,0 +1,18 @@
+# Normalise line endings so Windows and Unix contributors can work together.
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# These must never be normalised.
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+
+# Markdown diff readability for CJK content.
+*.md diff=markdown

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local run output — the skill writes generated research packages here
+out/
+output/
+field-research/
+领域研究/
+
+# Local notes that must never be published
+*.local.md
+NOTES.md
